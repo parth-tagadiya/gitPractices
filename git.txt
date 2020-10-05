@@ -1,8 +1,17 @@
+-------------------------------------------------------------
 git config --global user.name gitaccountName
 git config --global user.email gitEmail
+-------------------------------------------------------------
 
+git add .
+git commit -m meassage
 
-git commit // commit
+git remote add origin rpoUrl
+
+git push origin master
+
+-------------------------------------------------------------
+git commit 
 
 git branch branchName
 
