@@ -1,6 +1,7 @@
 git config --global user.name gitaccountName
 git config --global user.email gitEmail
 
+
 git commit // commit
 
 git branch branchName
