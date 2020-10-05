@@ -1,0 +1,8 @@
+git commit // commit
+
+git branch branchName
+
+git checkout branchName
+
+git merge branchName
+
