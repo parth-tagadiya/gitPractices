@@ -1,3 +1,6 @@
+git config --global user.name gitaccountName
+git config --global user.email gitEmail
+
 git commit // commit
 
 git branch branchName
@@ -6,3 +9,47 @@ git checkout branchName
 
 git merge branchName
 
+git rebase branchName
+
+git checkout commitName(HEAD using CommitName)
+git checkout branchName(HEAD using branchName)
+
+git checkout HEAD^ (parent of current head)
+git checkout branchName^ (parent of current branch)
+
+git checkout HEAD~value(value = 1,2,3,4,5)
+git branch -f branchName HEAD~value(value = 1,2,3,4,5)
+git branch -f branchName commitName
+git branch -f branchName branchName
+
+git reset HEAD^
+git reset HEAD~vallue
+
+git revert HEAD
+
+git cherry-pick <Commit1> <Commit2> <...>
+
+git rebase -i HEAD~value
+
+git clone
+
+git fetch
+
+git pull (fetch + merge)
+git pull --rebase(fetch + rebase)
+
+git checkout o/master
+
+git fakeTeamwork
+git fakeTeamwork branchName value
+
+git push master place
+git pull master place
+git feach master place
+
+git push master source:dest
+git pull master source:dest
+git feach master source:dest
+
+git push master :dest
+git pull master :dest
