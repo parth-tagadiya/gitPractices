@@ -1,5 +1,5 @@
 -------------------------------------------------------------
-git config --global user.name gitaccountName
+git config --global user.name gitAccountName
 git config --global user.email gitEmail
 -------------------------------------------------------------
 
